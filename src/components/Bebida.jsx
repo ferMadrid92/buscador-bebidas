@@ -23,7 +23,7 @@ const Bebida = ({bebida}) => {
                     handleBebidaIdClick(bebida.idDrink)
                 }}
             >
-                Ver Receta
+                View Recipe
             </Button>
         </Card.Body>
       </Card>

@@ -31,9 +31,9 @@ const ModalBebida = () => {
             </Modal.Header>
             <Modal.Body>
                 <div className="p-3">
-                    <h2>Instrucciones</h2>
+                    <h2>Instructions</h2>
                     {receta.strInstructions}
-                    <h2>Ingredientes y Cantidades</h2>
+                    <h2>Ingredients & Measures</h2>
                     {mostrarIngredientes()}
                 </div>
             </Modal.Body>
