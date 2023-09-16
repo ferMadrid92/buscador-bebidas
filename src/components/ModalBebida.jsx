@@ -1,4 +1,4 @@
-import { Modal, Image } from "react-bootstrap"
+import { Modal, Image, Button } from "react-bootstrap"
 import useBebidas from "../hooks/useBebidas"
 
 
@@ -26,7 +26,7 @@ const ModalBebida = () => {
                 src={receta.strDrinkThumb}
                 alt={`Imagen receta ${receta.strDrink}`}
             />
-            <Modal.Header>
+            <Modal.Header closeButton>
                 <Modal.Title>{receta.strDrink}</Modal.Title>
             </Modal.Header>
             <Modal.Body>
@@ -37,6 +37,7 @@ const ModalBebida = () => {
                     {mostrarIngredientes()}
                 </div>
             </Modal.Body>
+
         </Modal>
     )
   )

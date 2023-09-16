@@ -36,7 +36,7 @@ const Formulario = () => {
                     <Form.Control
                         id='nombre'
                         type='text'
-                        placeholder='e.g. Tequila, Vodka, etc'
+                        placeholder='e.g. Tequila, Vodka, Lemon Juice, etc'
                         name='nombre'
                         value={busqueda.nombre}
                         onChange={e => setBusqueda({
